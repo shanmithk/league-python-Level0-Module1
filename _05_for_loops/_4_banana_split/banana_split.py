@@ -24,6 +24,12 @@ Text Rendering Example:
 canvas.create_text(100, 50, text="text goes here", font=("Arial", 16))
 '''
 # Put your code below
+mess = ""
+for i in range(3):
+    mess += "Ice cream" + "\n"
+mess += "  banana"
+print(mess)
+canvas.create_text(100, 50, text=mess, font=("Arial", 16))
 
 
 root.mainloop()

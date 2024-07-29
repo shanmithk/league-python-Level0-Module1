@@ -1,10 +1,13 @@
 if __name__ == '__main__':
+    badger = ""
     for i in range(2):
         for i in range(12):
-            print("badger, ")
+            badger += "badger, "
         for i in range(2):
-            print("mushroom")
+            badger += "mushroom, "
+    print(badger)
     print("Snake!")
+
 
 
 
